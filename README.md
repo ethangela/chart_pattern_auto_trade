@@ -9,7 +9,7 @@ This repository contains a chart-pattern recognition system capable of detecting
 Run the detector from the command line:
 
 ```bash
-python detect_patterns.py --input data/close.csv --granularity 5min --output results/patterns.csv
+python detect_patterns.py --close close.csv --ticker tickers.csv
 ```
 
 ### 1.1 Data Format Requirements
@@ -19,14 +19,16 @@ close.csv
 - Each row corresponds to the close price of each ticker on that date
 
 tickers.csv
--- Must contain a single column listing all ticker names used by the detector
+- Must contain a single column listing all ticker names used by the detector
 
 ### 1.2 Granularity
 -- The Date field logically represents the timestamp of the observation
 -- Though named “Date”, the system is fully scalable to different time resolutions such as seconds, minutes, hours, days, or weeks, provided your input data matches that resolution
 
 ## 2. Sample Images — Price Skeletons
-![alt-text](path/to/image.png)
+![alt-text](figure/sketch_g30_2024_10_31_23.png)
+![alt-text](figure/sketch_g80_2024_10_31_23.png)
+![alt-text](figure/sketch_g130_2024_10_31_23.png)
 
 ## 3. Sample Images — Detected Patterns
 ![alt-text](path/to/image.png)
