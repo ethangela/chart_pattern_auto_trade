@@ -43,7 +43,15 @@ tickers.csv
 
 
 ## 3. Sample Images — Detected Patterns
-![alt-text](path/to/image.png)
+<figure>
+  <figcaption><em>double bottom</em></figcaption>
+  <img src="figure/ethandouble_bottom_g100_2023_09_15_22_00.png" width="1400">
+</figure>
+
+<figure>
+  <figcaption><em>head and shoulders</em></figcaption>
+  <img src="figure/ethanhead_and_shoulders_g100_2023_07_25_12_00.png" width="1400">
+</figure>
 
 ## 4. Backtesting Results — 220 Liquid Indian Stocks (5 Years)
 ![alt-text](path/to/image.png)
