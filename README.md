@@ -26,9 +26,19 @@ tickers.csv
 -- Though named “Date”, the system is fully scalable to different time resolutions such as seconds, minutes, hours, days, or weeks, provided your input data matches that resolution
 
 ## 2. Sample Images — Price Skeletons
-![high-granularity](figure/sketch_g30_2024_10_31_23.png)
-![middle-granularity](figure/sketch_g80_2024_10_31_23.png)
-![low-granularity](figure/sketch_g130_2024_10_31_23.png)
+<figure>
+  <img src="figure/sketch_g30_2024_10_31_23.png" width="400">
+  <figcaption><em>high-granularity</em></figcaption>
+</figure>
+<figure>
+  <img src="figure/sketch_g80_2024_10_31_23.png" width="400">
+  <figcaption><em>middle-granularity</em></figcaption>
+</figure>
+<figure>
+  <img src="figure/sketch_g130_2024_10_31_23.png" width="400">
+  <figcaption><em>low-granularity</em></figcaption>
+</figure>
+
 
 ## 3. Sample Images — Detected Patterns
 ![alt-text](path/to/image.png)
