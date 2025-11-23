@@ -54,5 +54,9 @@ tickers.csv
 </figure>
 
 ## 4. Backtesting Results — 220 Liquid Indian Stocks (5 Years)
-![alt-text](path/to/image.png)
+<figure>
+  <figcaption><em>back testing summary</em></figcaption>
+  <img src="figure/Screenshot 2025-11-24 at 00.53.31.png" width="1400">
+</figure>
+
 
