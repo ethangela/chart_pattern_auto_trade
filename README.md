@@ -9,17 +9,17 @@ This repository contains a chart-pattern recognition system capable of detecting
 Run the detector from the command line:
 
 ```bash
-python detect_patterns.py --close close.csv --ticker tickers.csv
+python chart_pattern_trading.py --close close.csv --ticker tickers.csv
 ```
 
 ### 1.1 Data Format Requirements
 close.csv
-- Note that the close.csv must contain a column named Date. 
+- You need to upload a close.csv which must contain a column named Date. 
 - All remaining columns represent tickers. 
 - Each row corresponds to the close price of each ticker on that date
 
 tickers.csv
-- Must contain a single column listing all ticker names used by the detector
+- You need to upload a ticker.csv whcih contain a single column listing all ticker names
 
 ### 1.2 Granularity
 -- The Date field logically represents the timestamp of the observation
