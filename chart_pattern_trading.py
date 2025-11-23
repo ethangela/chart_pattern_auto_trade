@@ -11,6 +11,7 @@ import os
 from itertools import combinations
 import shutil
 import math
+import argparse
 
 
 
@@ -886,19 +887,22 @@ def trade(thr, close_df, lag=None, stop_day=42):
 
 
 if __name__ == "__main__":
+    
 
     '''fixed paras'''
     granularity_list = [0.03, 0.06, 0.09, 0.12] #four levels of granularity, which can be further explored
 
 
-
     '''load data'''
-    # daily closing prices
-    close_df = pd.read_csv('DailyClosingPrices.csv', header=None) #TODO load your own data path
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--close', type=str, default='./close.csv') #TODO load your own data path
+    parser.add_argument('--ticker', type=str, default='./ticker.csv') #TODO load your own data path
+    HPARAMS = parser.parse_args()
+    close_df = pd.read_csv(HPARAMS.close, header=None) 
     close_df['Date'] = pd.to_datetime(close_df['Date'])
     date_list = close_df['Date'].dt.date.unique().tolist()
     date_format = date_list[-1].strftime('%d%m%Y')
-    ref_df = pd.read_csv('TickerName.csv') #TODO load your own data path
+    ref_df = pd.read_csv(HPARAMS.ticker) 
     liq_ticker_names = list(ref_df['Ticker-NSE'].values)
 
 
