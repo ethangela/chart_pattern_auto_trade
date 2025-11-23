@@ -14,12 +14,12 @@ python chart_pattern_trading.py --close close.csv --ticker tickers.csv
 
 ### 1.1 Data Format Requirements
 close.csv
-- You need to upload a close.csv which must contain a column named Date. 
+- You need to upload a '''close.csv''' which must contain a column named Date. 
 - All remaining columns represent tickers. 
 - Each row corresponds to the close price of each ticker on that date
 
 tickers.csv
-- You need to upload a ticker.csv whcih contain a single column listing all ticker names
+- You need to upload a '''ticker.csv''' whcih contain a single column listing all ticker names
 
 ### 1.2 Granularity
 -- The Date field logically represents the timestamp of the observation
