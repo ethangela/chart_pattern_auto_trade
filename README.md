@@ -27,16 +27,18 @@ tickers.csv
 
 ## 2. Sample Images — Price Skeletons
 <figure>
-  <img src="figure/sketch_g30_2024_10_31_23.png" width="1400">
   <figcaption><em>high-granularity</em></figcaption>
+  <img src="figure/sketch_g30_2024_10_31_23.png" width="1400">
 </figure>
+
 <figure>
-  <img src="figure/sketch_g80_2024_10_31_23.png" width="1400">
   <figcaption><em>middle-granularity</em></figcaption>
+  <img src="figure/sketch_g80_2024_10_31_23.png" width="1400">
 </figure>
+
 <figure>
-  <img src="figure/sketch_g130_2024_10_31_23.png" width="1400">
   <figcaption><em>low-granularity</em></figcaption>
+  <img src="figure/sketch_g130_2024_10_31_23.png" width="1400">
 </figure>
 
 
