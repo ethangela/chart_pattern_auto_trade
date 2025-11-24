@@ -1,12 +1,12 @@
 # Chart Pattern Recognition and Trading
 
-This repository contains a chart-pattern recognition system capable of detecting patterns across multiple time granularities, along with automated trading logic and backtesting functions.
+This repository contains a chart-pattern recognition system capable of detecting patterns across multiple time granularities, along with automated trading and backtesting functions.
 
 ---
 
 ## 1. Usage
 
-Run the detector from the command line:
+Run the program from the command line:
 
 ```bash
 python chart_pattern_trading.py --close close.csv --ticker tickers.csv
