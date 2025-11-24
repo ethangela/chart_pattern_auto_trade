@@ -14,7 +14,7 @@ python chart_pattern_trading.py --close close.csv --ticker tickers.csv
 
 ### 1.1 Data Format Requirements
 ```close.csv```
-- You need to upload a ```close.csv``` which must contain a column named Date. 
+- You need to upload a ```close.csv``` which must contain a column named Date
 - All remaining columns represent tickers. 
 - Each row corresponds to the close price of each ticker on that date
 
@@ -23,7 +23,7 @@ python chart_pattern_trading.py --close close.csv --ticker tickers.csv
 
 ### 1.2 Granularity
 - The Date field logically represents the timestamp of the observation
- Though named “Date”, the system is fully scalable to different time resolutions such as seconds, minutes, hours, days, or weeks, provided your input data matches that resolution
+- Though named “Date”, the system is fully scalable to different time resolutions such as seconds, minutes, hours, days, or weeks, provided your input data matches that resolution
 
 ## 2. Sample Images — Price Skeletons
 <figure>
