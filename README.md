@@ -22,8 +22,8 @@ python chart_pattern_trading.py --close close.csv --ticker tickers.csv
 - You need to upload a ```ticker.csv``` whcih contain a single column listing all ticker names
 
 ### 1.2 Granularity
--- The Date field logically represents the timestamp of the observation
--- Though named “Date”, the system is fully scalable to different time resolutions such as seconds, minutes, hours, days, or weeks, provided your input data matches that resolution
+- The Date field logically represents the timestamp of the observation
+ Though named “Date”, the system is fully scalable to different time resolutions such as seconds, minutes, hours, days, or weeks, provided your input data matches that resolution
 
 ## 2. Sample Images — Price Skeletons
 <figure>
