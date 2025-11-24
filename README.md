@@ -56,7 +56,7 @@ python chart_pattern_trading.py --close close.csv --ticker tickers.csv
 ## 4. Backtesting Results — 220 Liquid Indian Stocks (5 Years)
 <figure>
   <figcaption><em>back testing summary</em></figcaption>
-  <img src="figure/Screenshot 2025-11-24 at 00.53.31.png" width="1400">
+  <img src="figure/Screenshot 2025-11-24 at 14.46.00.png" width="1400">
 </figure>
 
 
